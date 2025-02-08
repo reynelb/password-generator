@@ -107,5 +107,5 @@ def pass_generator(custom_word, words_amount):
 
     return password
 
-password1 = pass_generator("hola", 3)
-print(password1) 
+#password1 = pass_generator("firstTry", 3)
+#print(password1) 
