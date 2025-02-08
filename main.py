@@ -86,9 +86,6 @@ def pass_generator(custom_word, words_amount):
     password = ""
     words_to_use = []
     words_to_use.append(custom_word)
-    #generare una lista con la cantidad de palabras pedidas, 
-    #de ahi ire sacando cada de las palabras de forma random y las ire 
-    #eliminando 
     
     for i in range(words_amount-1):
         words_to_use.append(random.choice(random_words))
